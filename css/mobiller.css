@@ -1,0 +1,56 @@
+@media(max-width:1000px){
+	#cerceve{
+		width:100%;		
+}
+}/*1000px bitişi*/
+@media(max-width:780px){
+	#ustlogo{
+		float:right;
+		width:95%;
+		text-align:center;
+		line-height:100px;
+	}
+	#ustmenu{
+		display:none;
+	}
+	.dropdown{
+		display:inherit;
+		float:left;
+		width:5%;
+		color:#080808;
+	}
+	.carousel-inner p{
+		font-size:12px;
+	}
+	.ortakutu{
+		width:48%;
+		margin-left:1%;
+		margin-right:1%;
+	}
+	#altlogo{
+		width:20%;
+		float:left;
+	}
+	#hizlimenu{
+		display:none;
+	}
+	#haklar{
+		width:80%;
+		line-height:50px;
+	}
+	
+}/*780px bitişi*/
+
+@media (max-width:600px){
+	.carousel-inner p{
+		font-size:10px;
+	}
+	.ortakutu{
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	#haklar{
+		font-size:9px;
+	}
+}/*600px bitişi*/
